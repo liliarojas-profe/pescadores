@@ -17,7 +17,9 @@ radio.onReceivedNumber(function (receivedNumber) {
             # . # # .
             . . . . .
             `)
+        basic.showString("Quedan")
         basic.showNumber(num_peces)
+        basic.showString("peces")
     }
 })
 input.onButtonPressed(Button.A, function () {
@@ -26,7 +28,7 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("d")
+    basic.showString("días pesca")
     basic.showNumber(dias)
 })
 let num_peces = 0
