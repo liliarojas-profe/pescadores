@@ -1,6 +1,6 @@
 radio.onReceivedNumber(function (receivedNumber) {
     num_peces += -1 * receivedNumber
-    dias = 1 + dias
+    dias += 1
     if (num_peces <= 0) {
         basic.showLeds(`
             . # # # .
