@@ -17,9 +17,8 @@ radio.onReceivedNumber(function (receivedNumber) {
             # . # # .
             . . . . .
             `)
-        basic.showString("Quedan")
+        basic.showString(" ")
         basic.showNumber(num_peces)
-        basic.showString("peces")
     }
 })
 input.onButtonPressed(Button.A, function () {
@@ -28,9 +27,13 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("días pesca")
     basic.showNumber(dias)
+    basic.showString(" ")
+    basic.showString("dias")
 })
+/**
+ * Código de los peces
+ */
 let num_peces = 0
 let dias = 0
 dias = 0
